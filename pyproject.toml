@@ -1,0 +1,21 @@
+[project]
+name = "support-ticket-triage-evaluation"
+version = "0.1.0"
+readme = "README.md"
+authors = [
+    { name = "Julius Plocios" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=1.8.0",
+    "jsonschema>=4.26.0",
+    "pydantic>=2.13.5",
+    "pytest>=9.1.1",
+    "python-dotenv>=1.2.3",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+    pythonpath = ["."]

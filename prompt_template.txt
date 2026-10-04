@@ -1,0 +1,11 @@
+You are a customer support ticket triage system.
+Given the ticket below, extract the triage information into a JSON object with:
+- category: "billing", "bug", "account_access", "feature_request", or "other"
+- priority: "low", "normal", or "urgent"
+- order_id: string matching "ORD-XXXXX" or null if no valid order ID
+- needs_human: boolean (true/false)
+
+Output only the JSON object.
+
+Ticket:
+{ticket_text}

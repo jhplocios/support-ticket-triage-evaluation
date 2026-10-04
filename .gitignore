@@ -1,0 +1,107 @@
+# Local agent and orchestration instructions
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+core.md
+core-coach.md
+.agents/
+.claude/
+.codex/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+secrets.yaml
+secrets.yml
+
+# Packaging and distributions
+build/
+dist/
+*.egg-info/
+*.egg
+eggs/
+develop-eggs/
+
+# Testing & code coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Type checking, linting, and formatting caches
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.dmypy.json
+dmypy.json
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Local data and experiment artifacts
+.dvc/cache/
+.dvc/tmp/
+mlruns/
+wandb/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+
+# Private backup hygiene
+.coverage.*
+.ipynb_checkpoints/
+node_modules/
+.next/
+.nuxt/
+.turbo/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*~
+[Aa][Gg][Ee][Nn][Tt][Ss].[Mm][Dd]
+[Cc][Ll][Aa][Uu][Dd][Ee].[Mm][Dd]
+[Gg][Ee][Mm][Ii][Nn][Ii].[Mm][Dd]
+.aws/
+.ssh/
+.kube/
+.docker/
+.cache/
+.envrc
+.npmrc
+.netrc
+.dvc/config.local
+.terraform/
+*.tfstate
+*.tfstate.*

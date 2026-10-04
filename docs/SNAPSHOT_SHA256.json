@@ -1,0 +1,12 @@
+{
+  "predict.py": "736c86e4bb0c683d129439cbf667be842ecdfddc5315152856541f408f93a93c",
+  "score.py": "edeb8f1df40ab040b0315ab71f9e8be3aee7e26c3855d519dfa6e9283c83f82d",
+  "schema.py": "3a65575df6ba539851d2b5d59429d29720a1ac74b3b98eac9bcd679858db4f1d",
+  "prompt_template.txt": "383d0bd9a8010a73bb245fc6829abc071fddca213115b48a01c5d71c72e9c603",
+  "cases/tickets.jsonl": "936266249fc74f82d28b06bead536c1578dba54050993a8981e1416ee2a4c771",
+  "cases/LABELLING.md": "e21ea7a9673ace6f9e63609fb1c4229e24854af0e075574c594dfb82273065fb",
+  "recordings/responses.jsonl": "e9a06f7d35bec1a9722b482d3bf462d97e16bf9d2369f3079a3886e52619b1cb",
+  "recordings/repair_run.jsonl": "ea23e803c10152aa9e1f6ea3a2fb1b8142887b25bb1881f1313c4dca651377e8",
+  "tests/test_scorer.py": "e620d2d54294ac2f0f6de7e016675a9c9be8516039734954d646affeebb867b0",
+  "tests/test_repair.py": "7b4fbd768b8bec75cab38cec86d3ca6fbe8c4b1e5a05e01adea441ffdb1ba015"
+}
